@@ -11,9 +11,19 @@
     <title>Fitness Center</title>
   </head>
   <body>
-    <nav class="navbar navbar-extend-md navbar-light bg-light sticky-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt="logo"></a>
+        <a href="#" class="navbar-brand">
+          <div class="media">
+            <a class="media-left" href="#">
+              <img class="media-item" src="img/logo.jpg" alt="logo">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading display-4 pl-3">Fitness Center</h4>
+            </div>
+          </div>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#items">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,6 +45,65 @@
         </div>
       </div>
     </nav>
+
+    <!-- Slider -->
+    <div class="carousel slide" id="photos" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#photos" class="active" data-slide-to="0"></li>
+        <li data-target="#photos" data-slide-to="1"></li>
+        <li data-target="#photos" data-slide-to="2"></li>
+        <li data-target="#photos" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/fitness.jpg" alt="fitness" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>This Is Our Fitness Saloon</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
+              Donec nec lacinia turpis, vel eleifend est.
+            </p>
+            <button type="button" name="button" class="btn btn-outline-light btn-lg">Pricing</button>
+            <button type="button" name="button" class="btn btn-primary btn-lg">Contact</button>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/havuz.jpg" alt="pool" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>This Is Our Pool</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
+              Donec nec lacinia turpis, vel eleifend est.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/hamam.jpg" alt="hamam" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>This Is Our Turkish Hamam</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
+              Donec nec lacinia turpis, vel eleifend est.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/tennis.jpg" alt="tennis" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>This Is Our Tennis Court</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
+              Donec nec lacinia turpis, vel eleifend est.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
