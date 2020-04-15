@@ -7,6 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <link rel="stylesheet" href="custom.css">
     <title>Fitness Center</title>
@@ -126,13 +130,13 @@
         <div class="row text-center">
           <div class="col-12">
             <h3 class="display-3">Made for you.</h3>
-            <hr>
+            <hr class="straight">
             <p class="lead">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
               Donec nec lacinia turpis, vel eleifend est.
             </p>
-            <img src="icons/down.svg" alt="down">
+            <i class="fas fa-arrow-down"></i>
           </div>
         </div>
       </div>
@@ -140,19 +144,19 @@
       <div class="container-fluid mt-4">
         <div class="row text-center justify-content-center">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="icons/people.svg" alt="personal">
+            <i class="fas fa-users"></i>
             <h4 class="display-4">Personal Training</h4>
             <p>Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
             Donec nec lacinia turpis, vel eleifend est.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="icons/activity.svg" alt="activity">
+            <i class="fab fa-hubspot"></i>
             <h4 class="display-4">Social Activities</h4>
             <p>Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
             Donec nec lacinia turpis, vel eleifend est.</p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <img src="icons/coffee.svg" alt="cafe">
+            <i class="fas fa-coffee"></i>
             <h4 class="display-4">Cafe & Bistro</h4>
             <p>Quisque ullamcorper, turpis sollicitudin viverra convallis, urna ex luctus massa, vitae finibus purus lectus in diam.
             Donec nec lacinia turpis, vel eleifend est.</p>
@@ -161,7 +165,7 @@
       </div>
       <hr>
       <!-- Contact -->
-      <div class="container-fluid">
+      <div class="container-fluid bg-light my-3">
         <div class="row">
           <div class="col-lg-6">
             <h4 class="display-4">If You Choose Us...</h4>
@@ -190,7 +194,7 @@
       <!-- Transition with Background -->
       <figure>
         <div class="fixed-wrap">
-          <div class="fixed">
+          <div id="fixed">
 
           </div>
         </div>
@@ -274,7 +278,7 @@
           <div class="col-12">
             <h3 class="display-3">Social Accounts</h3>
           </div>
-          <div class="col-12">
+          <div class="col-12 social">
             <a href="#"><li class="fab fa-facebook"></li></a>
             <a href="#"><li class="fab fa-instagram"></li></a>
             <a href="#"><li class="fab fa-twitter"></li></a>
@@ -312,7 +316,7 @@
               <p><a href="#">Contact</a></p>
             </div>
             <div class="col-12">
-              <hr class="light">
+              <hr class="light-100">
               <h5 >&copy; fitness_center@fitnes.com</h5>
             </div>
           </div>
